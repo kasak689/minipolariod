@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MiniPolaroid  Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>MiniPolaroid Photo Generator</h1>
+
+  <div class="controls">
+    <input type="file" id="fileInput" class="fileInput">
+    <input type="text" id="captionInput" placeholder="Write your caption">
+    <button id="generateButton">Generate Polaroid</button>
+    <button id="printButton">Print</button>
+  </div>
+
+  <div class="polaroid-container">
+    <canvas id="polaroidCanvas" width="400" height="500"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
